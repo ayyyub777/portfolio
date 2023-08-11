@@ -10,17 +10,14 @@ function Footer() {
     <>
       <div className="rounded-2xl bg-light-gray p-8 text-center sm:text-left">
         <h1 className="mb-8 max-w-lg text-xl font-bold text-black">
-          Have an interesting project in mind? 👋
+          Want to learn more about me? 👋
         </h1>
         <p className=" text-md mb-10 max-w-lg text-black">
-          I am a digital designer with 7+ years of experience and a passion for
-          web-design, ecommerce, branding and illustrations. I am comfortable
-          working with no-code tools, UI/UX, animations and always pay great
-          attention to details. I love designing new brands or making design
-          resources and tools. You can listen to my playlists on Spotify, watch
-          my photos on Instagram, see what I'm currently doing on Twitter, or
-          check out where I ride my road bike on Strava. I am currently in
-          Poland (UTC+2) 🇵🇱
+          An enthusiastic and adaptable software developer who loves creating
+          smart and effective solutions for everyday problems. I have a solid
+          grasp of different programming languages and a strong attention to
+          detail. My expertise lies in transforming intricate concepts into
+          user-friendly applications.
         </p>
         <div className="sm:flex sm:justify-between sm:align-middle">
           <div>
