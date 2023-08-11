@@ -1,7 +1,7 @@
 function Project() {
   return (
-    <div>
-      <div className="mb-6 flex h-full w-full flex-col sm:flex-row">
+    <div className="flex flex-col space-y-5">
+      <div className=" flex h-full w-full flex-col sm:flex-row">
         <img
           alt="project"
           src="/youtube.jpg"
@@ -24,7 +24,7 @@ function Project() {
           </p>
         </div>
       </div>
-      <div className="mb-6 flex h-full w-full flex-col sm:flex-row">
+      <div className="flex h-full w-full flex-col sm:flex-row">
         <img
           alt="project"
           src="/pdf.png"

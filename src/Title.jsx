@@ -1,8 +1,6 @@
 function Title({ children }) {
   return (
-    <h2 className=" invisible mb-5 text-gray sm:visible sm:text-xl">
-      {children}
-    </h2>
+    <h2 className="mb-5 hidden text-gray sm:block sm:text-xl">{children}</h2>
   );
 }
 
