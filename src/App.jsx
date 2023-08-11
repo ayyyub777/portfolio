@@ -13,7 +13,7 @@ function App() {
       <Nav />
       <Section>
         <Hero />
-        <Button>
+        <Button className="mb-0">
           <FaPaperPlane size="20px" />
           <span>Lets talk</span>
         </Button>
