@@ -8,7 +8,6 @@ function Hero() {
           alt="image"
         />
       </div>
-      <div className="text-5xl">💻</div>
       <div className="title my-14 mt-8">
         <h1 className="text-3xl font-bold">Hi! I'm Ayoub Bigharassine</h1>
         <h2 className="mb-6 text-xl">ReactJs Developer</h2>
