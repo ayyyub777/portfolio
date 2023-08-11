@@ -14,7 +14,7 @@ function Footer() {
         </h1>
         <p className=" text-md mb-10 max-w-lg text-black">
           An enthusiastic and adaptable software developer who loves creating
-          smart and effective solutions for everyday problems. I have a solid
+          smart and effective solutions for everyday problems. With a solid
           grasp of different programming languages and a strong attention to
           detail. My expertise lies in transforming intricate concepts into
           user-friendly applications.
