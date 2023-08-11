@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <div className="text-center sm:mx-0 sm:mt-[100px] sm:text-left">
-      <div className="avatar">
+      <div className="avatar hidden">
         <img
           className="mx-auto h-32 w-32 rounded-full border border-white/10 object-cover sm:mx-0"
           src="/pic.jpeg"
