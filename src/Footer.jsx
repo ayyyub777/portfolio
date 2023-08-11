@@ -12,7 +12,7 @@ function Footer() {
         <h1 className="mb-8 max-w-lg text-xl font-bold text-black">
           Want to learn more about me? 👋
         </h1>
-        <p className=" mb-10 max-w-lg text-xl text-black">
+        <p className=" mb-10 max-w-lg text-lg text-black">
           An enthusiastic and adaptable software developer who loves creating
           smart and effective solutions for everyday problems. With a solid
           grasp of different programming languages and a strong attention to

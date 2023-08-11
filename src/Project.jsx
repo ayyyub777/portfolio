@@ -15,10 +15,10 @@ function Project() {
             <div className="mr-1 rounded-2xl py-1.5 text-xs text-gray">|</div>
             <div className="mr-1 rounded-2xl py-1.5 text-xs text-gray">CSS</div>
           </div>
-          <p className="mb-2 text-lg text-black sm:text-xl">
+          <p className="mb-2 text-xl text-black sm:text-xl">
             Consectetur adiping
           </p>
-          <p className="text-md font-light text-gray">
+          <p className="text-lg font-light text-gray">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
             harum natus deserunt non delectus amet?
           </p>
