@@ -10,7 +10,7 @@ function Footer() {
     <>
       <div className="rounded-2xl bg-light-gray p-8 text-center sm:text-left">
         <h1 className="mb-8 max-w-lg text-xl font-bold text-black">
-          Want to learn more about me? 👋
+          Want to learn more about me? 🙌
         </h1>
         <p className=" mb-10 max-w-lg text-lg text-black">
           An enthusiastic and adaptable software developer who loves creating
