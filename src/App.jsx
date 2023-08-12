@@ -5,9 +5,14 @@ import Section from "./Section";
 import Button from "./Button";
 import Title from "./Title";
 import Footer from "./Footer";
-import { IoPaperPlane, IoPlay } from "react-icons/io5";
+import { IoPaperPlane, IoPlay, IoCloseCircleOutline } from "react-icons/io5";
+import Modal from "react-modal";
+import { useState } from "react";
+
+Modal.setAppElement("#root");
 
 function App() {
+  const [modalState, setModalState] = useState(false);
   return (
     <>
       <Nav />
@@ -17,10 +22,32 @@ function App() {
           <IoPaperPlane size="20px" />
           <span>Lets talk</span>
         </Button>
-        <Button border={false}>
+        <Button border={false} onClick={() => setModalState(true)}>
           <IoPlay size="20px" />
           <span className="font-medium">Elevator pitch</span>
         </Button>
+        <Modal
+          isOpen={modalState}
+          onRequestClose={() => setModalState(false)}
+          style={{
+            content: {
+              top: "50%",
+              left: "50%",
+              right: "auto",
+              bottom: "auto",
+              marginRight: "-50%",
+              transform: "translate(-50%, -50%)",
+            },
+          }}
+        >
+          <div className="text-center">
+            <h1>Elevator Pitch Placeholder</h1>
+            <Button border={false} onClick={() => setModalState(false)}>
+              <IoCloseCircleOutline size="20px" />
+              <span className="font-medium">Close</span>
+            </Button>
+          </div>
+        </Modal>
       </Section>
       <Section>
         <Title>Projects</Title>
