@@ -1,9 +1,9 @@
 import Button from "./Button";
 import {
-  FaPaperPlane,
-  FaRegFileLines,
-  FaArrowRightLong,
-} from "react-icons/fa6";
+  IoPaperPlane,
+  IoDocumentTextOutline,
+  IoArrowForwardOutline,
+} from "react-icons/io5";
 
 function Footer() {
   return (
@@ -19,19 +19,19 @@ function Footer() {
           detail. My expertise lies in transforming intricate concepts into
           user-friendly applications.
         </p>
-        <div className="sm:flex sm:justify-between sm:align-middle">
+        <div className="md:flex md:justify-between md:align-middle">
           <div>
             <Button>
-              <FaPaperPlane size="20px" />
-              <span>Hire ME!</span>
+              <IoPaperPlane size="20px" />
+              <span>Hire Me!</span>
             </Button>
             <Button outline={true}>
-              <FaRegFileLines size="20px" />
+              <IoDocumentTextOutline size="20px" />
               <span>Read CV</span>
             </Button>
           </div>
           <Button border={false}>
-            <FaArrowRightLong size="20px" />
+            <IoArrowForwardOutline size="20px" />
             <span>Download Resume</span>
           </Button>
         </div>

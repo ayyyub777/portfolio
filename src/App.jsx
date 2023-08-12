@@ -5,7 +5,7 @@ import Section from "./Section";
 import Button from "./Button";
 import Title from "./Title";
 import Footer from "./Footer";
-import { FaPaperPlane, FaRegCirclePlay } from "react-icons/fa6";
+import { IoPaperPlane, IoPlay } from "react-icons/io5";
 
 function App() {
   return (
@@ -14,11 +14,11 @@ function App() {
       <Section>
         <Hero />
         <Button>
-          <FaPaperPlane size="20px" />
+          <IoPaperPlane size="20px" />
           <span>Lets talk</span>
         </Button>
         <Button border={false}>
-          <FaRegCirclePlay size="20px" />
+          <IoPlay size="20px" />
           <span className="font-medium">Elevator pitch</span>
         </Button>
       </Section>
