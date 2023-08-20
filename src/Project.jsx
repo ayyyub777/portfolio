@@ -59,7 +59,7 @@ function Project() {
               <span className="underline">Preview</span>
             </button>
           </a>
-          <button className="mr-5 inline-flex hidden items-center justify-center space-x-2 text-black">
+          <button className="mr-5 inline-flex items-center justify-center space-x-2 text-black">
             <IoCodeSlashOutline size="20px" />
             <span className="underline">Source Code</span>
           </button>

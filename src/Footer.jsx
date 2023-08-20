@@ -25,12 +25,12 @@ function Footer() {
               <IoPaperPlane size="20px" />
               <span>Hire Me!</span>
             </Button>
-            <Button outline={true} className="hidden">
+            <Button outline={true}>
               <IoDocumentTextOutline size="20px" />
               <span>Read CV</span>
             </Button>
           </div>
-          <Button border={false} className="hidden">
+          <Button border={false}>
             <IoArrowForwardOutline size="20px" />
             <span>Download Resume</span>
           </Button>
