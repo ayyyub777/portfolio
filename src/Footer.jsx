@@ -19,23 +19,12 @@ function Footer() {
           detail. My expertise lies in transforming intricate concepts into
           user-friendly applications.
         </p>
-        <div className="md:flex md:justify-between md:align-middle">
-          <div>
-            <Button>
-              <IoPaperPlane size="20px" />
-              <span>Hire Me!</span>
-            </Button>
-            <Button outline={true}>
-              <IoDocumentTextOutline size="20px" />
-              <span>Read CV</span>
-            </Button>
-          </div>
-          <Button border={false}>
-            <IoArrowForwardOutline size="20px" />
-            <span>Download Resume</span>
-          </Button>
-        </div>
+        <Button>
+          <IoPaperPlane size="20px" />
+          <span>Hire Me!</span>
+        </Button>
       </div>
+
       <div className="mt-12">
         <p className="text-md text-center text-gray">
           © {new Date().getFullYear()} Ayoub Bigharassine. All rights reserved.
