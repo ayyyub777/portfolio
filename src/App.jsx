@@ -42,8 +42,6 @@ function App() {
         >
           <div className="text-center">
             <iframe
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/MG5vFusc5Mc"
               title="YouTube video player"
               frameborder="0"
