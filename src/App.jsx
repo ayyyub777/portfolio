@@ -40,8 +40,9 @@ function App() {
             },
           }}
         >
-          <div className="text-center">
+          <div className="w-[80vw] text-center sm:w-[560px]">
             <iframe
+              className="aspect-video w-full"
               src="https://www.youtube.com/embed/MG5vFusc5Mc"
               title="YouTube video player"
               frameborder="0"
