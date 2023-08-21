@@ -41,7 +41,15 @@ function App() {
           }}
         >
           <div className="text-center">
-            <h1>Elevator Pitch Placeholder</h1>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/MG5vFusc5Mc"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
             <Button border={false} onClick={() => setModalState(false)}>
               <IoCloseCircleOutline size="20px" />
               <span className="font-medium">Close</span>
